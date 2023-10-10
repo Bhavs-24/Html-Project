@@ -2,19 +2,21 @@
     background-image: url('assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
   }
   
   .container {
     margin: 0px;
     width: 1280px;
   }
-
   .logo{
-      float: left;
-      position:absolute;
-      margin-left: 100px;
-      width:180px;
-      height: 120px;
+  
+    position:absolute;
+    /* margin-left: 100px; */
+    width: 180px;
+    height: 120px;
+    left: 150px;
+    top: 30px;
   }
   .items{
     padding-left: 130px;
