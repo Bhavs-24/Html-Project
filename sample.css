@@ -73,7 +73,7 @@
     float: left;
     width: 310px;
     padding: 10px;
-    height: 450px; 
+    height: 482px; 
     background-color: #0E223A;
   }
   .column2 {
@@ -82,7 +82,7 @@
     float: left;
     width: 310px;
     padding: 10px;
-    height: 450px; 
+    height: 470x; 
     background-color: #0E223A;
   }
   .column3 {
@@ -91,7 +91,7 @@
     float: left;
     width: 300px;
     padding: 10px;
-    height: 450px; 
+    height: 482px; 
     background-color: #0E223A;
   }
   a{
@@ -100,7 +100,7 @@
   .footer{
     font-family: sans-serif;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 5px;
     margin-left: 150px;
     margin-right: 150px;
@@ -108,4 +108,8 @@
     padding-bottom: 2px;
     color: white;
     background: rgba(0,0,0,0.5);
+  }
+  .image1{
+    filter: brightness(2);
+  
   }
