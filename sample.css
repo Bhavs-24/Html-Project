@@ -5,16 +5,21 @@
   }
   
   .container {
-    margin: 0 55px;
+    margin: 0px;
     width: 1280px;
   }
 
   .logo{
-      position:relative;
-      width:80px;
-      height: 90px;
+      float: left;
+      position:absolute;
+      margin-left: 100px;
+      width:180px;
+      height: 120px;
   }
-
+  .items{
+    padding-left: 130px;
+  }
+ 
   ul {
     list-style-type: none;
     font-family: sans-serif;
@@ -39,7 +44,9 @@
     display: block;
     color: #9CCBEA;
     text-align: center;
-    padding: 20px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
     text-decoration: none;
   }
   
@@ -47,15 +54,15 @@
     background-color: #111;
   }
   .description{ 
-    font-family: Verdana light;
+    font-family: Calibri light;
+    font-size: 21px;
     text-align: start;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 0px;
     color: white;
     background: rgba(0,0,0,0.5);
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 20px;
   }
   .row:after {
@@ -121,8 +128,8 @@
     padding-top: 2px;
     padding-bottom: 2px;
     margin-top: 2px;
-    margin-left: 870px;
-    margin-right: 210px;
+    margin-left: 850px;
+    margin-right: 120px;
     align-items: end;
   }
   .body{
