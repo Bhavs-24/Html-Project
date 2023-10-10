@@ -5,14 +5,14 @@
   }
   
   .container {
-    margin: 0px;
+    margin: 0 55px;
     width: 1280px;
   }
 
   .logo{
-      position:absolute;
-      width:100px;
-      height: 150px;
+      position:relative;
+      width:80px;
+      height: 90px;
   }
 
   ul {
@@ -47,7 +47,7 @@
     background-color: #111;
   }
   .description{ 
-    font-family: sans-serif;
+    font-family: Verdana light;
     text-align: start;
     margin-left: 150px;
     margin-right: 150px;
@@ -55,7 +55,7 @@
     color: white;
     background: rgba(0,0,0,0.5);
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 20px;
   }
   .row:after {
@@ -67,49 +67,73 @@
     background-color: #10223A;
   }
   .column1 {
-    font-family: sans-serif;
+    font-family: Candara ;
     color: white;
     margin-left: 150px;
     float: left;
     width: 310px;
     padding: 10px;
-    height: 482px; 
+    height: 515px; 
     background-color: #0E223A;
   }
   .column2 {
-    font-family: sans-serif;
+    font-family: Candara ;
     color: white;
     float: left;
     width: 310px;
     padding: 10px;
-    height: 470x; 
+    height: 515px; 
     background-color: #0E223A;
   }
   .column3 {
-    font-family: sans-serif;
+    font-family: Candara ;
     color: white; 
     float: left;
     width: 300px;
     padding: 10px;
-    height: 482px; 
+    margin-right: 40px;
+    height: 515px; 
     background-color: #0E223A;
   }
   a{
     color: #9EDAF5;
   }
   .footer{
-    font-family: sans-serif;
+    font-family: Candara ;
     text-align: center;
-    font-size: 15px;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 150px;
     margin-right: 150px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     color: white;
     background: rgba(0,0,0,0.5);
   }
   .image1{
     filter: brightness(2);
-  
+  }
+  .top-description{
+    font-family: Candara;
+    font-size: 12px;
+    color: white;
+    background-color:#3A5889;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 870px;
+    margin-right: 210px;
+    align-items: end;
+  }
+  .body{
+    margin-top: 0px;
+  }
+  .footer-description{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .paragraph-description{
+    padding-right: 25px;
   }
