@@ -26,8 +26,8 @@
     list-style-type: none;
     font-family: sans-serif;
     margin-top: 35px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 180px;
+    margin-right: 120px;
     margin-bottom: 0PX;
     padding: 0;
     overflow: hidden;
@@ -53,14 +53,14 @@
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(192, 192, 192);
   }
   .description{ 
     font-family: Calibri light;
     font-size: 21px;
     text-align: start;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 180px;
+    margin-right: 120px;
     color: white;
     background: rgba(0,0,0,0.5);
     padding-top: 5px;
@@ -78,7 +78,7 @@
   .column1 {
     font-family: Candara ;
     color: white;
-    margin-left: 150px;
+    margin-left: 180px;
     float: left;
     width: 310px;
     padding: 10px;
@@ -111,8 +111,8 @@
     font-family: Candara ;
     text-align: center;
     margin-top: 3px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 180px;
+    margin-right: 120px;
     padding-top: 1px;
     padding-bottom: 1px;
     color: white;

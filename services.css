@@ -54,7 +54,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(192, 192, 192);
 }
 
 
@@ -129,7 +129,8 @@ a{
   float: left;
   width: 646px;
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 73px;
+  margin-bottom: 10px;
   background: rgba(0,0,0,0.5);
   /* padding: 10px; */
 }
@@ -168,4 +169,19 @@ hr{
   border-width:0;
   color:gray;
   background-color:gray;
+}
+.button{
+    position: absolute;
+    background-color: #145B76;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 3px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
 }
