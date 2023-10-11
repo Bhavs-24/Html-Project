@@ -12,11 +12,10 @@
   .logo{
   
     position:absolute;
-    /* margin-left: 100px; */
     width: 180px;
-    height: 120px;
-    left: 150px;
-    top: 30px;
+    height: 125px;
+    left: 185px;
+    top: 35px;
   }
   .items{
     padding-left: 130px;
@@ -31,7 +30,7 @@
     margin-bottom: 0PX;
     padding: 0;
     overflow: hidden;
-    background-color:  #142C44;
+    background-color: rgba(0,0,0,0.7);
     display: flex;
   }
   
@@ -53,11 +52,19 @@
   }
   
   li a:hover {
-    background-color: rgb(192, 192, 192);
+    background-color:#486881;
+    border-radius: 3px;
+    height: 3px;
+    padding-right: 2px;
+    margin-top: 8px;
+  }
+  span{
+    padding-left: 2px;
   }
   .description{ 
     font-family: Calibri light;
     font-size: 21px;
+    letter-spacing: 12px;
     text-align: start;
     margin-left: 180px;
     margin-right: 120px;
@@ -81,8 +88,10 @@
     margin-left: 180px;
     float: left;
     width: 310px;
-    padding: 10px;
-    height: 515px; 
+    padding-top: 25px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    height: 570px; 
     background-color: #0E223A;
   }
   .column2 {
@@ -90,8 +99,10 @@
     color: white;
     float: left;
     width: 310px;
-    padding: 10px;
-    height: 515px; 
+    padding-top: 25px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    height: 570px; 
     background-color: #0E223A;
   }
   .column3 {
@@ -99,9 +110,11 @@
     color: white; 
     float: left;
     width: 300px;
-    padding: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    letter-spacing: 1px;
     margin-right: 40px;
-    height: 515px; 
+    height: 570px; 
     background-color: #0E223A;
   }
   a{
@@ -131,7 +144,7 @@
     padding-bottom: 2px;
     margin-top: 2px;
     margin-left: 850px;
-    margin-right: 120px;
+    margin-right: 234px;
     align-items: end;
   }
   .body{

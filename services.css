@@ -4,7 +4,6 @@ body {
   background-size: cover;
   position: relative;
 }
-
 .container {
   margin: 0px;
   width: 1280px;
@@ -13,11 +12,10 @@ body {
 .logo{
   
   position:absolute;
-  /* margin-left: 100px; */
   width: 180px;
-  height: 120px;
-  left: 150px;
-  top: 30px;
+  height: 125px;
+  left: 158px;
+  top: 35px;
 }
 .items{
   padding-left: 130px;
@@ -32,7 +30,7 @@ ul {
   margin-bottom: 0PX;
   padding: 0;
   overflow: hidden;
-  background-color:  #142C44;
+  background-color: rgba(0,0,0,0.7);
   display: flex;
 }
 
@@ -40,8 +38,13 @@ li {
   font-family: sans-serif;
   float: left;
   list-style: none;
+ 
 }
-
+h4{
+  color:#C2DDF5;
+  font-family: Calibri light;
+  letter-spacing: 2px;
+}
 li a {
   font-family: sans-serif;
   display: block;
@@ -54,12 +57,16 @@ li a {
 }
 
 li a:hover {
-  background-color: rgb(192, 192, 192);
+  background-color:#486881;
+  border-radius: 3px;
+  height: 3px;
+  padding-right: 2px;
+  margin-top: 8px;
 }
 
 
 a{
-  color: #9EDAF5;
+  color: #AABED5;
 }
 .footer{
   font-family: Candara ;
@@ -103,43 +110,47 @@ a{
   padding-left: 20px;
   margin-left: 150px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 57px;
   width: 315px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
 }
 .column2{
   float: left;
+  font-family: Candara ;
   width: 646px;
   color: white;
+  letter-spacing: 1px;
   margin-top: 32px;
-  background: rgba(0,0,0,0.5);
-  padding-top: 20px;
-  padding-bottom: 5px;
+  background: rgba(0,0,0,0.7);
+  padding-top: 0px;
+  padding-bottom: 26px;
 }
 .column3{
   float: left;
+  font-family: Candara ;
   padding-top: 15px;
   padding-left: 20px;
   margin-left: 150px;
+  letter-spacing: 1px;
   width: 315px;
-  padding-bottom: 134px;
-  background: rgba(0,0,0,0.5);
+  padding-bottom: 181.5px;
+  background: rgba(0,0,0,0.7);
 }
 .column4 {
   float: left;
   width: 646px;
+  font-family: Candara;
   color: white;
-  padding-bottom: 73px;
+  padding-bottom: 32.5px;
   margin-bottom: 10px;
-  background: rgba(0,0,0,0.5);
-  /* padding: 10px; */
+  background: rgba(0,0,0,0.7);
+  letter-spacing: 1px;
 }
 .column {
   float: left;
   margin-left: 150px;
   width: 522px;
   background: rgba(0,0,0,0.5);
-  /* padding: 10px; */
 }
 
 
@@ -164,16 +175,16 @@ a{
 }
 hr{
   height:0.5px;
-  margin-right: 80px;
+  margin-right: 40px;
   margin-top: 10px;
   border-width:0;
   color:gray;
   background-color:gray;
 }
 .button{
-    position: absolute;
+    border-color: #135D7A;
     background-color: #145B76;
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 10px;
     color: #FFFFFF;
     padding: 3px;
