@@ -34,31 +34,37 @@
   ul {
     padding-left: 212PX;
     list-style-type: none;
-    font-family: sans-serif;
+    font-family: Trebuchet MS;
   }
 
-  li ::after{
+  /* li ::after{
     content: " |";
     position: relative;
     right:-3px;
+  } */
+
+  li :not(:last-child):after{
+    content:"|";
+   
+    color:#fff;
   }
 
-  li  a  :nth-child(1)  :after{
+  /* li  a  :nth-child(1)  ::after{
     content: none;
-  }
-  .itemstyle{
-    margin-left: 6rem;
+  } */
+  .li-home{
+    margin-left: 8rem;
   } 
   li{
     display: inline-block;
-    font-family: sans-serif;
+    font-family: Trebuchet MS;
     list-style: none;
     margin-right: 5px;
     margin-left: 5px;
   }
   
   li a {
-    font-family: sans-serif;
+    font-family: Trebuchet MS;
     display: block;
     color: #9CCBEA;
     text-align: center;
@@ -82,7 +88,7 @@
     padding-bottom: 5px;
     padding-left: 20px;
   }
-  .outerparagraph{
+  .content-block{
     background-color: #10223A;
     padding:7px;
   }
@@ -96,34 +102,18 @@
     clear: both;
     background-color: #10223A;
   }
-  .paragraph1 {
-    font-family: Candara;
+  .paragraph-section {
+    font-family: Trebuchet MS;
+    font-size: 14px;
     color: white;
     padding-right: 10px;
     padding-top: 25px;
-    padding-left: 25px;
+    padding-left: 20px;
     letter-spacing: 1px;
     padding-bottom: 24px;
     background-color: #0E223A;
   }
-  .paragraph2 {
-    font-family: Candara;
-    color: white;
-    padding-top: 25px;
-    padding-left: 20px; 
-    letter-spacing: 1px;
-    background-color: #0E223A;
-    padding-right: 24px;
-  }
-  .paragraph3 {
-    font-family: Candara;
-    color: white;
-    float: left;
-    padding-top: 25px;
-    padding-right: 16px;
-    letter-spacing: 1px;
-    background-color: #0E223A;
-  }
+ 
   a{
     color: #9EDAF5;
   }
@@ -140,25 +130,26 @@
     filter: brightness(2);
   }
   .top-description{
-    font-family: Candara;
+    font-family: Trebuchet MS;
     margin-bottom: 35px;
     display: flow;
-    font-size: 12px;
+    font-size: 10.5px;
     color: white;
-    margin-left: 675px;
-    background-color:#3A5889;
-    padding-left: 10px;
+    margin-left: 695px;
+    background-color: #3A5889;
+    padding-left: 4px;
     padding-top: 2px;
     padding-bottom: 2px;
     margin-top: 2px;
-    align-items: end;
   }
   .body{
     margin-top: 0px;
   }
   .footer-description{
-    padding-top: 2px;
-    padding-bottom: 2px;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #C0C7E1;

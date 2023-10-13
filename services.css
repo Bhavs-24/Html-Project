@@ -11,16 +11,11 @@ body {
 }
 
 .logo{
-   
+  padding-left: 17px;
   height: auto;
-  position: relative;
-  top: -9px;
+  position: absolute;
+  top: 11px;
   float: left;
-}
-.logo   img{
-  padding-left: 10px;
-  width:100px;
-  height:auto;
 }
 .items{
   width: 730px;
@@ -28,11 +23,11 @@ body {
 }
 
 ul {
-  padding-left: 229PX;
+  padding-left: 212PX;
   list-style-type: none;
-  font-family: sans-serif;
+  font-family: Trebuchet MS;
 }
-.services-p{
+.services-content{
 padding-left: 20px;
 }
 
@@ -55,15 +50,15 @@ li {
 }
 
 li a {
-  font-family: sans-serif;
+  font-family: Trebuchet MS;
   display: block;
   color: #9CCBEA;
   text-align: center;
   text-decoration: none;
 }
-h4{
+h2{
   color:#C2DDF5;
-  font-family: Calibri light;
+  font-family: Trebuchet MS;
   letter-spacing: 2px;
 }
 li a:hover {
@@ -72,13 +67,14 @@ li a:hover {
 
 a{
   color: #AABED5;
+  font-family: Trebuchet MS;
 }
 
-.itemstyle{
-  margin-left: 6rem;
+.li-home{
+  margin-left: 8rem;
 } 
 .footer{
-  font-family: Candara ;
+  font-family: Trebuchet MS;
   text-align: center;
   margin-top: 3px;
   padding-top: 1px;
@@ -88,18 +84,17 @@ a{
 }
 
 .top-description{
-  font-family: Candara;
+  font-family: Trebuchet MS;
   margin-bottom: 35px;
   display: flow;
-  font-size: 12px;
+  font-size: 10.5px;
   color: white;
-  margin-left: 675px;
-  background-color:#3A5889;
-  padding-left: 10px;
+  margin-left: 695px;
+  background-color: #3A5889;
+  padding-left: 4px;
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 2px;
-  align-items: end;
 }
 .body{
   margin-top: 0px;
@@ -108,33 +103,38 @@ a{
   background-color: none;
 }
 .top-description{
-  font-family: Candara;
+  font-family: Trebuchet MS;
   margin-bottom: 35px;
   display: flow;
-  font-size: 12px;
+  font-size: 10.5px;
   color: white;
-  margin-left: 675px;
+  margin-left: 695px;
   background-color: #3A5889;
-  padding-left: 10px;
+  padding-left: 4px;
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 2px;
 }
 .footer-description{
-  padding-top: 2px;
-  padding-bottom: 2px;
+  font-family: Trebuchet MS;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: #C0C7E1;
 }
-.content-description1{
+.content-description{
+  font-family: Trebuchet MS;
+  font-size: 15px;
   padding-right: 24px;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 57px;
 }
-.content-description2{
-    font-family: Candara;
+.content-description-section{
+  font-family: Trebuchet MS;
+  font-size: 15px;
     color: white;
     letter-spacing: 1px;
     padding-top: 0px;
@@ -145,7 +145,7 @@ a{
  }
 
 .container-content{
-  /* padding:7px; */
+   padding:7px; 
   margin-top: 32px;
   background: rgba(0,0,0,0.7);
 
@@ -154,20 +154,14 @@ a{
      /* margin-top: 32px; */
      border-width: 1px;
      border-style: groove;
-     border-image: linear-gradient(#151821, #525A66) 30;
+     border-image: linear-gradient(#45372D, #525A66) 30;
      border-style: solid;
      display: flex;
-     width: 960px;
+  
 /* background-color: #10223A; */
  
 }
-.logo1{
-  padding-left: 17px;
-  height: auto;
-  position: absolute;
-  top: 11px;
-  float: left;
-}
+
 .itemstyle{
   margin-left: 6rem;
 } 
@@ -193,19 +187,20 @@ hr{
   background-color:gray;
 }
 .button{
-    border-color: #135D7A;
-    background-color: #145B76;
-    border-radius: 3px;
-    font-size: 10px;
-    color: #FFFFFF;
-    padding: 3px;
-    width: 200px;
-    text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
+  font-family: Trebuchet MS;
+  border-color: #136885;
+  background-image: linear-gradient(#155A77,#0B283A);
+  border-radius: 8px;
+  font-size: 10px;
+  color: #AECBED;
+  padding: 3px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
 }
  .navigationbaritems{
   width: 730px;
@@ -225,7 +220,8 @@ hr{
   background-color: rgba(0,0,0,0.7);
  }
 .description-points{
-  background-color: #10223A;
+  font-family: Trebuchet MS;
+  background-image: linear-gradient(#10223A,#0B283A);
 }
 .image1{
   padding-bottom: 16px;
