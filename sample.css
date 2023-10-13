@@ -37,15 +37,14 @@
     font-family: Trebuchet MS;
   }
 
-  /* li ::after{
+  li ::after{
     content: " |";
     position: relative;
     right:-3px;
-  } */
+  }
 
   li :not(:last-child):after{
     content:"|";
-   
     color:#fff;
   }
 
@@ -66,9 +65,12 @@
   li a {
     font-family: Trebuchet MS;
     display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
     color: #9CCBEA;
     text-align: center;
     text-decoration: none;
+    border-radius: 3px;
   }
   
    li a:hover {
@@ -122,7 +124,7 @@
     text-align: center;
     margin-top: 3px;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 5px;
     color: white;
     background: rgba(0,0,0,0.5);
   }
@@ -135,11 +137,11 @@
     display: flow;
     font-size: 10.5px;
     color: white;
-    margin-left: 695px;
+    margin-left: 690px;
     background-color: #3A5889;
-    padding-left: 4px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     margin-top: 2px;
   }
   .body{
@@ -161,9 +163,9 @@
    color: white;
   }
  .nav-bar-items{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  height: 58px;
   background-color: rgba(0,0,0,0.7);
  }
  .items1{

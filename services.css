@@ -9,7 +9,6 @@ body {
   width: 960px;
 
 }
-
 .logo{
   padding-left: 17px;
   height: auto;
@@ -52,9 +51,12 @@ li {
 li a {
   font-family: Trebuchet MS;
   display: block;
+  padding-top: 4px;
+  padding-bottom: 4px;
   color: #9CCBEA;
   text-align: center;
   text-decoration: none;
+  border-radius: 3px;
 }
 h2{
   color:#C2DDF5;
@@ -68,6 +70,7 @@ li a:hover {
 a{
   color: #AABED5;
   font-family: Trebuchet MS;
+  padding-bottom: 5px;
 }
 
 .li-home{
@@ -78,7 +81,7 @@ a{
   text-align: center;
   margin-top: 3px;
   padding-top: 1px;
-  padding-bottom: 1px;
+  padding-bottom: 5px;
   color: white;
   background: rgba(0,0,0,0.5);
 }
@@ -89,11 +92,11 @@ a{
   display: flow;
   font-size: 10.5px;
   color: white;
-  margin-left: 695px;
+  margin-left: 690px;
   background-color: #3A5889;
-  padding-left: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   margin-top: 2px;
 }
 .body{
@@ -135,31 +138,26 @@ a{
 .content-description-section{
   font-family: Trebuchet MS;
   font-size: 15px;
-    color: white;
-    letter-spacing: 1px;
-    padding-top: 0px;
-    padding-bottom: 26px;
+  color: white;
+  letter-spacing: 1px;
+  padding-top: 0px;
+  padding-bottom: 26px;
 }
 .contentlink{
   color: white;
  }
 
 .container-content{
-   padding:7px; 
+  padding:7px; 
   margin-top: 32px;
-  background: rgba(0,0,0,0.7);
-
+  background: rgba(0,0,0,0.8);
 }
 .content{
-     /* margin-top: 32px; */
-     border-width: 1px;
-     border-style: groove;
-     border-image: linear-gradient(#45372D, #525A66) 30;
-     border-style: solid;
-     display: flex;
-  
-/* background-color: #10223A; */
- 
+  border-width: 1px;
+  border-style: groove;
+  border-image: linear-gradient(#332F24, #525A66) 30;
+  border-style: solid;
+  display: flex;
 }
 
 .itemstyle{
@@ -180,7 +178,7 @@ a{
  }
 hr{
   height:0.5px;
-  margin-right: 40px;
+  margin-right: 12px;
   margin-top: 10px;
   border-width:0;
   color:gray;
@@ -193,20 +191,20 @@ hr{
   border-radius: 8px;
   font-size: 10px;
   color: #AECBED;
-  padding: 3px;
+  padding: 5px;
   width: 200px;
   text-align: center;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
 }
- .navigationbaritems{
+.navigationbaritems{
   width: 730px;
   float: left;
 }
- .naviagtion-items {
+.naviagtion-items {
   border: 1px solid #3C4D61;
   padding-right: 245PX;
   margin-left: 7px;
@@ -214,15 +212,15 @@ hr{
   float: left;
 }
 .nav-bar-items{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  height: 58px;
   background-color: rgba(0,0,0,0.7);
  }
 .description-points{
   font-family: Trebuchet MS;
   background-image: linear-gradient(#10223A,#0B283A);
 }
-.image1{
+.services-image{
   padding-bottom: 16px;
 }
