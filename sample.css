@@ -12,31 +12,19 @@
   .topdescription{
     background-color: none;
   }
-  .logo{
-   
-    height: auto;
-    position: relative;
-    top: -9px;
-    float: left;
-  }
-  .logo   img{
-    padding-left: 10px;
-    width:100px;
-    height:auto;
-  }
 
-  .logo1{
+  .logo{
     padding-left: 17px;
     height: auto;
     position: absolute;
     top: 11px;
     float: left;
   }
-  .items{
+  .navigationbaritems{
     width: 730px;
     float: left;
   }
- .items1 {
+ .naviagtion-items {
   border: 1px solid #3C4D61;
   padding-right: 245PX;
   margin-left: 7px;
@@ -44,18 +32,29 @@
   float: left;
 }
   ul {
-    /* width: 700px;
-    float: left; */
-    padding-left: 229PX;
+    padding-left: 212PX;
     list-style-type: none;
     font-family: sans-serif;
   }
-  
-  li {
-    padding: 0px 1em;
+
+  li ::after{
+    content: " |";
+    position: relative;
+    right:-3px;
+  }
+
+  li  a  :nth-child(1)  :after{
+    content: none;
+  }
+  .itemstyle{
+    margin-left: 6rem;
+  } 
+  li{
     display: inline-block;
     font-family: sans-serif;
     list-style: none;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   
   li a {
@@ -63,18 +62,15 @@
     display: block;
     color: #9CCBEA;
     text-align: center;
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 60px; */
     text-decoration: none;
   }
   
-  li a:hover {
+   li a:hover {
     background-color:#486881;
-  }
-  /* .top-navigation{
+  } 
+  .top-navigation{
     border: 1px solid red;
-  } */
+  } 
   .description{ 
     font-family: Trebuchet MS;
     font-size: 15px;
@@ -86,19 +82,17 @@
     padding-bottom: 5px;
     padding-left: 20px;
   }
+  .outerparagraph{
+    background-color: #10223A;
+    padding:7px;
+  }
   .paragraph {
     border-width: 1px;
+    border-style: groove;
+    border-image: linear-gradient(#151821, #525A66) 30;
     border-style: solid;
-    /* border-color: red; */
-    /* box-sizing: border-box; */
-    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
-    border-width: 2px;
-    border-style: solid;
-       /* margin-left: 150px; */
-    /* margin-right: 150px; */
     content: "";
     display: flex;
-    /* display: table; */
     clear: both;
     background-color: #10223A;
   }
@@ -115,12 +109,9 @@
   .paragraph2 {
     font-family: Candara;
     color: white;
-    /* float: left; */
-    /* width: 310px; */
     padding-top: 25px;
-    /* padding-left: 25px; */
+    padding-left: 20px; 
     letter-spacing: 1px;
-    /* padding-bottom: 20px; */
     background-color: #0E223A;
     padding-right: 24px;
   }
@@ -128,11 +119,9 @@
     font-family: Candara;
     color: white;
     float: left;
-    /* width: 300px; */
     padding-top: 25px;
     padding-right: 16px;
     letter-spacing: 1px;
-    /* margin-right: 40px; */
     background-color: #0E223A;
   }
   a{
@@ -183,7 +172,7 @@
  .nav-bar-items{
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 46px;
+  height: 50px;
   background-color: rgba(0,0,0,0.7);
  }
  .items1{
