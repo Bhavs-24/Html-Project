@@ -15,9 +15,12 @@ body {
   position: absolute;
   top: 11px;
 }
-
+.active,  a:hover{
+  background-color: #486881;
+  color: white;
+}
 ul {
-  padding-left: 212PX;
+  padding-left: 336PX;
   list-style-type: none;
   font-family: Trebuchet MS;
 }
@@ -34,19 +37,20 @@ li {
   display: inline-block;
   font-family: sans-serif;
   list-style: none;
-  margin-right: 8px;
-  margin-left: 15px;
+
 }
 
 li a {
   font-family: Trebuchet MS;
-    margin-right: 5px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: #9CCBEA;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 3px;
+  margin-right: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #9CCBEA;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
 }
 h2{
   color:#C2DDF5;
@@ -64,8 +68,8 @@ a{
 }
 
 .li-home{
-  margin-left: 6rem;
-  margin-right: 5px;
+  padding-left: 5px;
+    padding-right: 5px;
 } 
 .footer{
   font-family: Trebuchet MS;
@@ -94,7 +98,8 @@ a{
   margin-top: 0px;
 }
 .topdescription{
-  background-color: none;
+  display: flex;
+  justify-content: end;
 }
 .top-description{
   font-family: Trebuchet MS;
@@ -102,11 +107,11 @@ a{
   display: flow;
   font-size: 10.5px;
   color: white;
-  margin-left: 695px;
+  margin-left: 690px;
   background-color: #3A5889;
-  padding-left: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   margin-top: 2px;
 }
 .footer-description{
@@ -140,7 +145,7 @@ a{
 .container-content{
   padding:7px; 
   margin-top: 32px;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7);
 }
 .content{
   border-width: 1px;
@@ -197,7 +202,7 @@ hr{
 }
 .description-points{
   font-family: Trebuchet MS;
-  background-image: linear-gradient(#10223A,#0f1f27);
+  background-image: linear-gradient(#10223A,#0f2530);
   margin-right: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -209,4 +214,7 @@ h5{
 }
 .services-image{
   padding-bottom: 16px;
+}
+.service-highlights{
+  margin: 0px;
 }
