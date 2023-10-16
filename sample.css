@@ -33,6 +33,7 @@
     padding-left: 336PX;
     list-style-type: none;
     font-family: Trebuchet MS;
+    display: inline-flex;
   }
 
   li:not(:last-child):after{
@@ -45,14 +46,12 @@
     padding-right: 5px;
   } 
   li{
-    display: inline-block;
     font-family: Trebuchet MS;
     list-style: none;
   }
   
   li a {
     font-family: Trebuchet MS;
-    margin-right: 5px;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 5px;
@@ -87,7 +86,7 @@
   .paragraph {
     border-width: 1px;
     border-style: groove;
-    border-image: linear-gradient(#151821, #525A66) 30;
+    border-image: linear-gradient(#10223A, #525A66) 30;
     border-style: solid;
     content: "";
     display: flex;
@@ -96,7 +95,7 @@
   .paragraph-section {
     font-family: Trebuchet MS;
     font-size: 14px;
-    color: white;
+    color: #FEFFFF;
     padding-right: 10px;
     padding-top: 25px;
     padding-left: 20px;
@@ -125,12 +124,11 @@
     display: flow;
     font-size: 10.5px;
     color: white;
-    margin-left: 690px;
     background-color: #3A5889;
-    padding-left: 8px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-top: 2px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 4px;
+    padding-bottom: 6px;
   }
   .body{
     margin-top: 0px;

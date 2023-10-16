@@ -20,6 +20,7 @@ body {
   color: white;
 }
 ul {
+  display: inline-flex;
   padding-left: 336PX;
   list-style-type: none;
   font-family: Trebuchet MS;
@@ -34,7 +35,6 @@ li:not(:last-child):after{
 }
 
 li {
-  display: inline-block;
   font-family: sans-serif;
   list-style: none;
 
@@ -42,7 +42,6 @@ li {
 
 li a {
   font-family: Trebuchet MS;
-  margin-right: 5px;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
@@ -87,12 +86,11 @@ a{
   display: flow;
   font-size: 10.5px;
   color: white;
-  margin-left: 690px;
   background-color: #3A5889;
-  padding-left: 8px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-top: 2px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 4px;
+  padding-bottom: 6px;
 }
 .body{
   margin-top: 0px;
@@ -101,19 +99,7 @@ a{
   display: flex;
   justify-content: end;
 }
-.top-description{
-  font-family: Trebuchet MS;
-  margin-bottom: 35px;
-  display: flow;
-  font-size: 10.5px;
-  color: white;
-  margin-left: 690px;
-  background-color: #3A5889;
-  padding-left: 8px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-top: 2px;
-}
+
 .footer-description{
   font-family: Trebuchet MS;
   font-size: 14px;
@@ -172,6 +158,7 @@ hr{
   background-color:gray;
 }
 .button{
+  font-weight: bold;
   font-family: Trebuchet MS;
   border: 1px solid #146986;
   background-image: linear-gradient(#155A77,#0B283A);
@@ -202,7 +189,7 @@ hr{
 }
 .description-points{
   font-family: Trebuchet MS;
-  background-image: linear-gradient(#10223A,#0f2530);
+  background-image: linear-gradient(#10223A,#10223A);
   margin-right: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
